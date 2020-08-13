@@ -45,7 +45,7 @@ class LPRDataset(torch.utils.data.Dataset):
         
     def __getitem__(self, idx):    
         # load images and bounding boxes
-        img_path = os.path.join(self.root, "images", self.imgs[idx])
+        img_path = os.path.join(self.root, self.imgs[idx])
         img = Image.open(img_path).convert("RGB")
         box_list = parse_one_annot(self.path_to_data_file, self.imgs[idx])
         boxes = torch.as_tensor(box_list, dtype=torch.float32)
