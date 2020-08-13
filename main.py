@@ -40,7 +40,7 @@ class LPRDataset(torch.utils.data.Dataset):
     def __init__(self, root, data_file, transforms=None):
         self.root = root
         self.transforms = transforms
-        self.imgs = sorted(os.listdir(os.path.join(root, "images")))
+        self.imgs = sorted(os.listdir(root))
         self.path_to_data_file = data_file
         
     def __getitem__(self, idx):    
@@ -71,16 +71,17 @@ class LPRDataset(torch.utils.data.Dataset):
 
 if __name__ == '__main__':
     ## 1. Config
-    img_path = './dataset'
+    img_train_path = './dataset/train'
+    img_val_path = './dataset/val'
     train_csv = './dataset/train.csv'
     val_csv = './dataset/val.csv'
     
     
     ## 2. Set Dataset
-    dataset_train = LPRDataset(img_path, train_csv,
+    dataset_train = LPRDataset(img_train_path, train_csv,
                                transforms=get_transform())
     
-    dataset_val = LPRDataset(img_path, val_csv,
+    dataset_val = LPRDataset(img_val_path, val_csv,
                              transforms=get_transform())
     
     data_loader_train = torch.utils.data.DataLoader(dataset_train, 
