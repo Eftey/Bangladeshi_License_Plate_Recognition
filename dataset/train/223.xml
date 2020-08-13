@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>223.jpg</filename>
+	<path>C:\Users\kelvin\Desktop\lpr_new\temp\train\223.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>260</width>
+		<height>194</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>65</xmin>
+			<ymin>131</ymin>
+			<xmax>90</xmax>
+			<ymax>142</ymax>
+		</bndbox>
+	</object>
+</annotation>

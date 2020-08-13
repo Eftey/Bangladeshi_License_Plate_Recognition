@@ -1,0 +1,26 @@
+<annotation>
+	<folder>val</folder>
+	<filename>219.jpg</filename>
+	<path>C:\Users\kelvin\Desktop\lpr_new\temp\val\219.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>237</width>
+		<height>212</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>158</xmin>
+			<ymin>159</ymin>
+			<xmax>192</xmax>
+			<ymax>176</ymax>
+		</bndbox>
+	</object>
+</annotation>

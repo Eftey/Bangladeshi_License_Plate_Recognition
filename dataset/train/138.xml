@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>138.jpg</filename>
+	<path>C:\Users\kelvin\Desktop\lpr_new\temp\train\138.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>506</width>
+		<height>500</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>plate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>251</xmin>
+			<ymin>378</ymin>
+			<xmax>365</xmax>
+			<ymax>425</ymax>
+		</bndbox>
+	</object>
+</annotation>
