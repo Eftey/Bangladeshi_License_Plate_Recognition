@@ -71,10 +71,10 @@ class LPRDataset(torch.utils.data.Dataset):
 
 if __name__ == '__main__':
     ## 1. Config
-    img_train_path = './dataset/train'
-    img_val_path = './dataset/val'
-    train_csv = './dataset/train.csv'
-    val_csv = './dataset/val.csv'
+    img_train_path = '/content/Data_Model/dataset/train'
+    img_val_path = '/content/Data_Model/dataset/val'
+    train_csv = '/content/Data_Model/dataset/train.csv'
+    val_csv = '/content/Data_Model/dataset/val.csv'
     
     
     ## 2. Set Dataset
